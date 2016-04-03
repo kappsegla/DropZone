@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4A571997-3C88-4440-AEEC-09DBE5C3A158}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7DD906DA-CEFE-47AF-8488-0B32EDFC5EF3}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DropZone", "src\DropZone\DropZone.xproj", "{0A048B8D-097E-48AA-80DB-BCF82FB5EEB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A048B8D-097E-48AA-80DB-BCF82FB5EEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A048B8D-097E-48AA-80DB-BCF82FB5EEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A048B8D-097E-48AA-80DB-BCF82FB5EEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A048B8D-097E-48AA-80DB-BCF82FB5EEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A048B8D-097E-48AA-80DB-BCF82FB5EEB8} = {4A571997-3C88-4440-AEEC-09DBE5C3A158}
+	EndGlobalSection
+EndGlobal
