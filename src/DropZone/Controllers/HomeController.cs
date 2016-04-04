@@ -16,7 +16,6 @@ namespace DropZone.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page is updated in MASTER";
-
             return View();
         }
 
