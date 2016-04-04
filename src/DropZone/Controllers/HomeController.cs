@@ -15,7 +15,7 @@ namespace DropZone.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page is updated again.";
+            ViewData["Message"] = "Your application description page is updated TESTING.";
 
             return View();
         }
